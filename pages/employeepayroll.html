@@ -10,7 +10,7 @@
 <body>
     <header class="header-content header">
         <div class="logo-content">
-            <img src="..\assset\logo.png" alt="">
+            <img src="../assets/images/logo.png" alt="">
             <div>
                 <span class="emp-text">EMPLOYEE</span><br>
                 <span class="emp-text emp-payroll">PAYROLL</span>
@@ -28,20 +28,20 @@
                 <label class="label text" for="profile">Profile image</label>
                 <div class="profile-radio-content">
                     <label>
-                        <input type="radio" id="profile1" name="profile" value="../assset/profile-images/Ellipse -3.png" required>
-                        <img class="profile" id="image1" src="..\assets\ProfileImage\Ellipse -1.png">
+                        <input type="radio" id="profile1" name="profile" value="../assets/profile-images/Ellipse -3.png" required>
+                        <img class="profile" id="image1" src="../assets/profile-images/Ellipse -3.png">
                     </label>
                     <label>
-                        <input type="radio" id="profile2" name="profile" value="../assset/profile-images/Ellipse 1.png" required>
-                        <img class="profile" id="image2" src="..\assets\ProfileImage\Ellipse -2.png">
+                        <input type="radio" id="profile2" name="profile" value="../assets/profile-images/Ellipse 1.png" required>
+                        <img class="profile" id="image2" src="../assets/profile-images/Ellipse 1.png">
                     </label>
                     <label>
-                        <input type="radio" id="profile3" name="profile" value="../assset/profile-images/Ellipse -8.png" required>
-                        <img class="profile" id="image3" src="..\assets\ProfileImage\Ellipse -3.png">
+                        <input type="radio" id="profile3" name="profile" value="../assets/profile-images/Ellipse -8.png" required>
+                        <img class="profile" id="image3" src="../assets/profile-images/Ellipse -8.png">
                     </label>
                     <label>
-                        <input type="radio" id="profile4" name="profile" value="../assset/profile-images/Ellipse -7.png" required>
-                        <img class="profile" id="image4" src="..\assets\ProfileImage\Ellipse -4.png">
+                        <input type="radio" id="profile4" name="profile" value="../assets/profile-images/Ellipse -7.png" required>
+                        <img class="profile" id="image4" src="../assets/profile-images/Ellipse -7.png">
                     </label>
                 </div>
             </div>
@@ -73,7 +73,8 @@
                 <label class="label text" for="salary">Choose Your Salary: </label>
                 <input class="input" type="range" name="salary" id="salary" min="300000" max="500000" step="100" value="400000">
                 <output class="salary-output text" for="salary">400000</output>
-            </div><div class="row-content">
+            </div>
+            <div class="row-content">
                 <label class="label text" for="startDate">Start Date</label>
                 <div>
                     <select id="day" name="Day">
@@ -132,18 +133,17 @@
                     </select>
                 </div>
             </div>
-        </div>
-        <div class="row-content">
-            <label class="label text" for="notes">Notes</label>
-            <textarea id="notes" class="input" name="Notes" placeholder="add notes...." style="height: 100px;"></textarea>
-        </div>
-        <div class="buttonParent">
-            <a href="..\home.css" class="resetButton button cancelButton">cancel</a>
-            <div class="submit-reset">
-                <button type="submit" class="button submitButton" id="submitButton">Submit</button>
-                <button type="reset" class="resetButton button">Reset</button>
+            <div class="row-content">
+                <label class="label text" for="notes">Notes</label>
+                <textarea id="notes" class="input" name="Notes" placeholder="add notes...." style="height: 100px;"></textarea>
             </div>
-        </div>
+            <div class="buttonParent">
+                <a href="./home.html" class="resetButton button cancelButton">cancel</a>
+                <div class="submit-reset">
+                    <button type="submit" class="button submitButton" id="submitButton">Submit</button>
+                    <button type="reset" class="resetButton button">Reset</button>
+                </div>
+            </div>
     </form>
 </body>
 </html>
